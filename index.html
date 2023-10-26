@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Content Management Tool</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <h1 class="main-heading"></h1>
+    
+    <div class="top-section">
+        <div class="top">
+            <h1></b>Content Management Tool</b></h1>
+            <img src="https://www.aezion.com/wp-content/uploads/2020/06/aezion-content-management-system-1000x675-1.jpeg", alt="Content management tool image"/>
+        </div>
+
+        <div class="card ">
+            <div class="input-section">
+                <b><label for="title"> <mark>Title:</mark></label></b> <br />
+                <input class="input " type="text" id="title" placeholder="Enter title"> <br />
+                <b><label for="content"><mark>Content:</mark></label></b> <br />
+                <input class="input" id="content" placeholder="Enter content" />
+            </div>
+
+            <div class="input-section">
+                <b><label class="label-section" for="image"><mark>Image:</mark></label></b>
+                <input type="file" id="image" accept="image/*">
+            </div>
+
+            <div class="input-section">
+                <b><label class="label-section" for="video"><mark>Video:</mark></label></b>
+                <input type="file" id="video" accept="video/*">
+            </div>
+        </div>
+    </div>
+
+    <div class="button-section ">
+        <button class="button" onclick="submitForm()">Submit</button>
+    </div>
+
+    <div class="data-container">
+        <div class="data-section" id="dataSection">
+        </div>
+    </div>
+    <script src="first.js"></script>
+</body>
+
+</html>
+
+
+
